@@ -26,4 +26,8 @@ Welcome to the Pixel Pulse website repository. This is a frontend website built 
 - **CSS3**: For styling the website.
 - **Bootstrap 5**: For responsive design and pre-built components.
 
+## Live Demo
+
+- [Website Link] (#https://sandra2021211.github.io/Pixel-Pulse/)
+
 
