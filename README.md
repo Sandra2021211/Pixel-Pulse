@@ -7,13 +7,11 @@ Welcome to the Pixel Pulse website repository. This is a frontend website built 
 
 ## Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Home](#home)
+- [Welcome](#welcome)
+- [Projects](#projects)
+- [Team](#team)
+- [Subscribe](#subscribe)
 - [Contact](#contact)
 
 ## About
@@ -34,13 +32,5 @@ Pixel Pulse is dedicated to delivering cutting-edge technology solutions to help
 - **HTML5**: For the structure of the website.
 - **CSS3**: For styling the website.
 - **Bootstrap 5**: For responsive design and pre-built components.
-- **JavaScript**: For interactive features and enhanced user experience.
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/pixel-pulse.git
 
