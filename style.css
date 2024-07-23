@@ -1,0 +1,334 @@
+[class*="col-"] {
+  padding: 1rem;
+}
+
+.row, .container-fluid {
+margin-left: 0px!important;
+margin-right: 0px!important;
+}
+
+.c-item{
+  height: 600px;
+}
+
+.c-img{
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+
+body{
+  overflow-x: hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+}
+
+.navbar{
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9rem;
+
+}
+.btn-primary{
+  border-width: medium;
+  text-transform: uppercase;
+  font-size: 1.2 rem;
+  padding: .6rem 1.2rem;
+  margin: 1 rem;
+  color: black;
+  background-color: #d8a790;
+  border-color: #d8a790;
+}
+
+.btn-primary:hover{
+  background-color: #a98467;
+  border-color: #a98467;
+}
+
+.navbar-brand img{
+  height: 2rem;
+  margin-left: 10px;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  color: #a2d2ff;
+}
+
+.nav-link.active, 
+.nav-link:hover{
+  color: #d8a790;
+}
+
+.navbar-toggler{
+  color: #a2d2ff;
+  border: 1px solid #a2d2ff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2870, 130, 180, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn-outline-light{
+  color: black;
+  border-color: black;
+}
+
+.feature svg.svg-inline--fa{
+  color: #d8a790;
+}
+.feature h3{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+
+}
+.feature p{
+  font-size: 1.1rem;
+}
+
+
+.card1, .card-body{
+  background-color: #d8a790;
+  background: linear-gradient(to left, #d8a790 50%, #a2d2ff 50%);
+  background-size: 200%;
+  background-position: right;
+  transition: all;
+}
+
+.card1:hover,
+.card-body:hover{
+  background-position: left;
+}
+
+.card-body{
+  background-color: #d8a790;
+}
+
+.team img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.c-items img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%; 
+  height: 300px;
+}
+
+
+.carousel-indicators img{
+  width: 80px;
+  height: 60px;
+  display: block;
+}
+
+.carousel-indicators button{
+  width: max-content !important;
+}
+
+.carousel-indicators{
+  position: unset;
+}
+
+.carousel-indicators button.active{
+  border: 2px solid #a2d2ff;
+}
+
+.jumbotron{
+  background-image: url(banner3.jpg);
+}
+.container-fluid{
+  text-align: center;
+}
+
+.newsletter{
+  margin-top: 100px;
+  padding: 80px;
+  background-image: url(banner.jpg);
+}
+
+.newsletter .content{
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter .content h2{
+  margin-bottom: 40px;
+}
+
+.newsletter .content .form-control{
+  height: 50px;
+  border-color: black;
+  border-radius: 0;
+}
+.newsletter .content .form-control:focus{
+  box-shadow: none;
+  border: 2px solid black;
+}
+.newsletter .content .btn{
+  height: 50px;
+  border-radius: 0;
+  background-color: #243c4f;
+  color: white;
+}
+
+.contact form{
+  border: 1px solid #e1e1e1;
+  width: 100%;
+  background-color: #a2d2ff;
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact .form-control{
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.contact .form h1{
+  font-weight: bolder;
+  text-align: center;
+}
+
+.contact .form span{
+  font-weight: bold;
+  padding-bottom: 20px;
+  
+}
+
+.contact .map{
+  width: 100%;
+  height: 600px;
+}
+
+.contact .map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+footer .footer{
+  align-items: center;
+}
+footer .footer .f1,
+footer .footer .f2,
+footer .footer .f3
+{
+  padding-left: 150px;
+}
+
+footer .footer .f1{
+  margin-top: 40px;
+}
+footer .footer .f2{
+  margin-bottom: 80px;
+}
+footer .footer .f3{
+  margin-top: 20px;
+}
+
+footer h3{
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+footer p{
+  font-size: 12px;
+}
+
+footer a{
+  font-size: 12px;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+footer .f2 i{
+  cursor: pointer;
+}
+
+footer .f2 i:hover,
+footer .f3 a:hover{
+  color:#d8a790;
+}
+
+@media (max-width: 576px){
+  .image1{
+    width: 50% !important;
+    margin-left: 100px;
+  }
+
+  .newsletter .content{
+    width: 50% !important;
+    align-items: center;
+  }
+  
+  .container footer{
+    margin-right: 30%;
+  }
+
+  .footer .f3{
+    padding: auto;
+  }
+
+  .c-items img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    height: 300px;
+  }
+
+  .newsletter .content .form-control{
+    height: 50px;
+    width: 100%;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .newsletter .content .btn{
+    height: 50px;
+  }
+
+  .feature i{
+    margin-top: 50px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
