@@ -1,9 +1,6 @@
-# Pixel-Pulse
-Frontend website created using HTML, CSS, Bootstrap5
-
 # Pixel Pulse
 
-Welcome to the Pixel Pulse website repository. This is a frontend website built using HTML, CSS, and Bootstrap 5. Pixel Pulse is a fictional tech company specializing in innovative technology solutions.
+Welcome to the Pixel Pulse website repository. This is a frontend website built using HTML, CSS, and Bootstrap 5. Pixel Pulse is a tech website specializing in innovative technology solutions.
 
 ## Table of Contents
 
@@ -14,15 +11,11 @@ Welcome to the Pixel Pulse website repository. This is a frontend website built 
 - [Subscribe](#subscribe)
 - [Contact](#contact)
 
-## About
-
-Pixel Pulse is dedicated to delivering cutting-edge technology solutions to help businesses thrive in the digital era. Our website showcases our services, portfolio, and company information, providing an engaging user experience for our visitors.
-
 ## Features
 
-- **Responsive Design**: The website is fully responsive, ensuring it looks great on all devices, from desktops to mobile phones.
+- **Responsive Design**: The website is responsive, ensuring it looks great on devices, for desktops and mobile phones.
 - **Bootstrap 5**: Utilizes the latest version of Bootstrap for modern and sleek UI components.
-- **Interactive Elements**: Includes interactive elements such as carousels, modals, and accordions to enhance user engagement.
+- **Interactive Elements**: Includes interactive elements such as carousels to enhance user engagement.
 - **Custom Styling**: Custom CSS is used to tailor the Bootstrap components to fit the Pixel Pulse brand.
 - **Contact Form**: A functional contact form is included for visitors to reach out to the company.
 - **Integrated Map**: An embedded Google Map to show the company's location.
