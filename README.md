@@ -28,6 +28,6 @@ Welcome to the Pixel Pulse website repository. This is a frontend website built 
 
 ## Live Demo
 
-- [Website Link] (#https://sandra2021211.github.io/Pixel-Pulse/)
+- https://sandra2021211.github.io/Pixel-Pulse/
 
 
